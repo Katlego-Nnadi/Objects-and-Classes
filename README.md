@@ -79,6 +79,7 @@ print(obj.get_private_variable())
 In this example, __private_variable is a private variable, and you access it through getter and setter methods (get_private_variable and set_private_variable). This encapsulation helps in controlling access to the internal state of the object and prevents direct modification from outside the class.
 
 ## Iterators, Generators, and more
+
 ### Iterators:
 
 An iterator in Python is an object that can be iterated (looped) over. It implements the methods `__iter__()` and `__next__()` or uses the `iter()` and `next()` functions. Iterators are commonly used to iterate through elements in a sequence (like a list or a tuple) or to represent a stream of data.
